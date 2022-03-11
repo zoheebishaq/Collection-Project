@@ -1,6 +1,7 @@
 package collectionDemos;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ArrayListDemos1 {
@@ -51,6 +52,25 @@ public class ArrayListDemos1 {
 
         //isEmpty
         System.out.println(al.isEmpty()); // false
+
+        //1 for loop
+        System.out.println("Reading element using for loop");
+        for (int i = 0; i < al.size(); i++) {
+            System.out.println(al.get(i));
+        }
+
+        //2 for each loop
+        System.out.println("Reading element using foreach loop");
+        for (Object e:al
+             ) {
+            System.out.println(e);
+        }
+        //3 iterator()
+        System.out.println("Reading element using iterator method");
+        Iterator it = al.iterator();
+        while (it.hasNext()){
+            System.out.println(it.next());
+        }
     }
 
 
