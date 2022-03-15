@@ -15,7 +15,7 @@ public class HashSetDemo1 {
         //HashSet<Integer> evenNumber = new HashSet<Integer>();
 
 
-        //Add elements into linked list
+        //Add elements into hset
         hs.add(100);
         hs.add("welcome");
         hs.add(15.5);
@@ -45,7 +45,7 @@ public class HashSetDemo1 {
         System.out.println(hs.isEmpty()); //false
 
 
-        //Reading elements from LL using for loop // No Index so not possible
+        //Reading elements from hset using for loop // No Index so not possible
 		/*for(int i=0;i<l.size();i++)
 		 {
 			System.out.println(l.get(i));
