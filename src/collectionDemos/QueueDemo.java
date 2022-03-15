@@ -14,6 +14,7 @@ public class QueueDemo {
         q.add("B");
         q.add("C");
 
+
         //q.offer(100); // not allowed in queue( heterogenios data)
 
         System.out.println(q); //[A, B, C, C] //insertion order preserved & duplicates allowed
